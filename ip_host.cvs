@@ -1,0 +1,88 @@
+Australia - Perth (auper01)	Okay	187.358	187.601	187.996	64.233.188.121
+Australia - Brisbane (aubne02)	Okay	305.699	305.997	306.235	2404:6800:4008:c05::79
+Argentina - Buenos Aires (arbue01)	Okay	28.395	30.894	32.432	64.233.186.121
+United States - Atlanta (usatl02)	Okay	1.053	1.145	1.214	74.125.21.121
+Australia - Sydney (ausyd03)	Okay	138.595	138.653	138.725	74.125.204.121
+Brazil - Sao Paulo (brsao04)	Not available				
+Brazil - Porto Alegre (brpoa01)	Okay	63.534	63.731	64.058	64.233.190.121
+Canada - Vancouver (cavan03)	Okay	11.785	11.884	11.938	173.194.202.121
+Belgium - Antwerp (beanr02)	Okay	7.364	7.536	7.718	74.125.136.121
+Bulgaria - Sofia (bgsof02)	Okay	37.892	37.934	37.977	74.125.136.121
+India - Bangalore (inblr01)	Packets lost (30%)	44.528	52.774	100.974	74.125.68.121
+United States - Boulder (uswbu01)	Okay	20.979	21.017	21.082	173.194.197.121
+Canada - Toronto (cator02)	Okay	24.799	24.937	25.709	209.85.147.121
+China - Hangzhou (cnhgh01)	Unknown host: www.gwtproject.org				
+United States - Chicago (uschi04)	Okay	10.912	10.927	10.980	209.85.147.121
+United States - Santa Clara (usscz03)	Okay	83.958	84.067	84.248	173.194.205.121
+Switzerland - Zurich (chzrh01)	Okay	20.897	21.019	21.120	2a00:1450:400c:c0b::79
+United States - Charlotte (usclt02)	Okay	7.909	8.219	8.475	74.125.21.121
+China - Shanghai (cnsha02)	Unknown host: www.gwtproject.org				
+Costa Rica - San Jose (crsjo01)	Okay	85.070	85.282	85.650	74.125.127.121
+Canada - Calgary (cacal01)	Okay	21.789	22.694	25.110	173.194.79.121
+Czech Republic - Prague (czprg01)	Okay	19.158	19.185	19.195	74.125.136.121
+Germany - Munich (demuc02)	Okay	13.781	13.881	14.012	2a00:1450:400c:c07::79
+Germany - Cologne (decgn01)	Okay	13.411	14.713	17.806	2a00:1450:4013:c01::79
+Germany - Frankfurt (defra03)	Okay	10.215	10.496	10.732	74.125.136.121
+Germany - Berlin (deber01)	Okay	17.430	17.509	17.563	64.233.166.121
+United Arab Emirates - Dubai (aedxb01)	Okay	131.266	131.320	131.395	74.125.136.121
+Ireland - Dublin (iedub02)	Okay	0.749	0.776	0.804	74.125.24.121
+Egypt - Cairo (egcai01)	Not available				
+Spain - Madrid (esmad02)	Okay	20.210	20.330	21.113	74.125.206.121
+France - Paris (frpar03)	Not available				
+United States - Orlando (usorl01)	Okay	10.185	10.241	10.302	74.125.21.121
+France - Lille (frlle02)	Okay	9.426	9.453	9.506	64.233.184.121
+Greece - Athens (grath01)	Okay	131.925	139.943	144.895	2a00:1450:4013:c00::79
+Switzerland - Geneva (chgva01)	Okay	16.685	16.705	16.764	66.102.1.121
+China - Hong Kong (hkhkg01)	Okay	34.561	36.978	49.540	2404:6800:4008:c01::79
+Hungary - Budapest (hubud01)	Okay	24.078	24.150	24.204	64.233.166.121
+India - Mumbai (inbom02)	Okay	59.007	60.888	63.299	74.125.68.121
+India - New Delhi (inicd01)	Okay	73.731	74.048	74.898	74.125.200.121
+Italy - Milan (itmil01)	Unknown result from ping				2a00:1450:400b:c02::79
+Italy - Padova (itpda01)	Okay	41.683	41.891	42.239	2a00:1450:400b:c02::79
+Japan - Tokyo (jptok02)	Okay	34.811	35.264	36.150	74.125.203.121
+South Africa - Johannesburg (zajnb01)	Okay	166.944	166.979	167.052	173.194.67.121
+Denmark - Copenhagen (dkcph02)	Unknown result from ping				2a00:1450:4013:c01::79
+Israel - Kiryat-Matalon (ilktm01)	Okay	69.646	69.940	70.337	2a00:1450:400c:c0a::79
+Korea, Republic of - Seoul (krsel01)	Okay	62.536	63.031	66.245	74.125.203.121
+Ukraine - Kiev (uaiev01)	Okay	33.923	33.944	33.973	74.125.133.121
+United States - Ashburn (usabn07)	Okay	9.122	9.173	9.249	173.194.208.121
+Lithuania - Vilnius (ltvno01)	Okay	39.620	39.768	39.905	173.194.65.121
+United States - Los Angeles (uslax02)	Okay	29.237	29.265	29.303	74.125.28.121
+Australia - Melbourne (aumel02)	Okay	150.689	150.871	151.146	74.125.23.121
+United States - Miami (usmia02)	Okay	18.424	18.543	18.612	74.125.21.121
+United States - Seattle (ussea03)	Okay	8.141	8.194	8.240	74.125.25.121
+Canada - Montreal (camtr02)	Okay	27.116	27.184	27.422	2607:f8b0:400c:c0f::79
+Malaysia - Kuala Lumpur (mykul02)	Okay	8.201	10.585	14.268	74.125.68.121
+Netherlands - Groningen (nlgrq02)	Okay	7.432	7.573	7.765	2a00:1450:4013:c01::79
+New Zealand - Auckland (nzakl03)	Okay	167.050	167.402	169.472	173.194.72.121
+United States - New York (usnyc01)	Okay	23.407	23.476	23.717	2607:f8b0:400c:c08::79
+Norway - Oslo (noosl02)	Okay	16.914	16.970	17.125	64.233.165.121
+Poland - Gdansk (plgdn01)	Okay	61.229	61.438	61.623	2a00:1450:400c:c09::79
+United States - Phoenix (usphx01)	Okay	40.845	40.983	41.070	74.125.20.121
+United States - Philadelphia (usphl01)	Okay	17.385	17.588	18.422	2607:f8b0:400c:c10::79
+United States - Dallas (usdal02)	Okay	10.512	10.570	10.815	2607:f8b0:4003:c04::79
+United States - Chicago (uschi02)	Okay	11.470	11.589	12.258	2607:f8b0:4001:c10::79
+Russian Federation - St. Petersburg (ruled01)	Okay	5.020	5.066	5.098	74.125.205.121
+Italy - Rome (itrom02)	Okay	38.034	40.258	43.513	74.125.24.121
+Russian Federation - Moscow (rumow02)	Okay	16.083	16.226	16.379	64.233.165.121
+Romania - Bucharest (robuh01)	Okay	40.045	40.108	40.200	74.125.136.121
+Serbia - Belgrade (rsbeg01)	Okay	44.047	44.163	44.422	74.125.136.121
+United Kingdom - Glasgow (gbglw01)	Okay	8.536	9.109	11.670	74.125.71.121
+United States - San Diego (ussan01)	Okay	32.339	32.395	32.430	74.125.20.121
+Sweden - Stockholm (sesto01)	Okay	27.497	27.525	27.554	2a00:1450:400c:c0a::79
+United States - San Francisco (ussfo02)	Okay	24.981	25.037	25.104	173.194.79.121
+Singapore - Singapore (sgsin03)	Okay	2.129	2.235	2.372	74.125.200.121
+United States - Salt Lake City (usslc01)	Okay	34.692	39.498	52.582	74.125.28.121
+Saudi Arabia - Riyadh (saruh01)	Okay	93.307	93.415	93.562	74.125.24.121
+United States - Austin (usaus02)	Okay	12.994	13.103	13.175	2607:f8b0:4003:c07::79
+United States - St. Louis (usstl01)	Okay	36.099	36.175	36.215	74.125.207.121
+Finland - Tampere (fitmp02)	Okay	18.627	18.656	18.683	173.194.71.121
+Thailand - Bangkok (thbkk02)	Okay	29.776	29.947	30.213	74.125.68.121
+Turkey - Istanbul (trist02)	Okay	47.814	54.130	63.520	74.125.136.121
+United Kingdom - Manchester (gbmnc01)	Okay	13.663	13.754	13.964	173.194.67.121
+Ukraine - Kharkov (uahrk02)	Okay	41.832	42.011	42.246	173.194.71.121
+United Kingdom - London (gblon01)	Okay	10.375	10.410	10.437	2a00:1450:400c:c0b::79
+Austria - Vienna (atvie01)	Okay	28.631	28.707	28.788	66.102.1.121
+Viet Nam - Ho Chi Minh City (vnsgn01)	Okay	64.848	64.978	65.049	74.125.130.121
+South Africa - Durban (zadur01)	Okay	176.596	176.713	176.808	74.125.140.121
+South Africa - Cape Town (zacpt02)	Okay	182.365	182.515	182.694	66.102.1.121
