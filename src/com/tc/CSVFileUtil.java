@@ -9,8 +9,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Collections;
 
 
 public class CSVFileUtil {
@@ -118,13 +117,14 @@ public class CSVFileUtil {
     //---------
     //refs:https://github.com/jptx1234/SimplePing/
     private String testIpGetPing(ArrayList<String> ipList){
-        int maxTime=0;
-        String maxtimeString = "暂无数据";
+
+        ArrayList<HostMode> hostModeArrayList=new ArrayList<HostMode>();
+
         try {
-            for (String string : ipList) {
+            for (String ip : ipList) {
                 //win?
                 //Process p=Runtime.getRuntime().exec("ping "+string+" -n 1");
-                Process p=Runtime.getRuntime().exec("ping -c 1 "+string);
+                Process p=Runtime.getRuntime().exec("ping -c 1 "+ip);
                 BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
                 String line;
                 StringBuilder sb=new StringBuilder();
@@ -133,33 +133,38 @@ public class CSVFileUtil {
                 }
                 p.getInputStream().close();
                 String[] mes=sb.toString().split(" +");
-                String timeString = "响应超时";
+
                 for (int i = 0; i < mes.length; i++) {
                     String strMes=mes[i];
                     strMes=mes[i].toUpperCase();
-                    if (strMes.startsWith("TTL=")) {
-                        timeString = mes[i+1].replaceAll(mes[i-1].split("(?:(<*+\\d+ms))")[0], "");
-                        Pattern pat = Pattern.compile("\\D+");
-                        Matcher m = pat.matcher(timeString);
-//						timeString = mes[i-1].split("=|<|(ms)")[1];
-                        int time = Integer.valueOf(m.replaceAll("").trim());
-                        if (time > maxTime) {
-                            maxTime = time;
-                            maxtimeString = timeString;
-                        }
+                    if (strMes.startsWith("TIME=")) {
+                        String timeVal=strMes.substring(strMes.indexOf("=")+1);
+                        System.out.println(ip+ "\t" + timeVal);
+                        int msTimeVal=Integer.valueOf(timeVal);
+                        HostMode hostMode=new HostMode();
+                        hostMode.ip=ip;
+                        hostMode.timeMs=msTimeVal;
+                        hostModeArrayList.add(hostMode);
                     }
                 }
-                System.out.println("\r\n" + string + "\t" + timeString);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        if (maxTime == 0) {
-            return "响应超时";
-        }else {
-            return maxtimeString;
-        }
+
+        String bestIp=findFastHost(hostModeArrayList);
+        System.out.println("best ip:" + bestIp);
+
+        return bestIp;
     }
 
+    private String findFastHost(ArrayList<HostMode> hostList){
+        if(hostList!=null && hostList.size()>0){
+            Collections.sort(hostList,new SortHostList());
+            return hostList.get(0).ip;
+        }
+
+        return null;
+    }
 
 }
