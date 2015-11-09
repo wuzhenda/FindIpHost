@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
-
+import java.util.Properties;
 
 public class CSVFileUtil {
 
@@ -113,19 +113,38 @@ public class CSVFileUtil {
     }
 
 
+    private String getOSName() {
+
+        Properties props = System.getProperties();
+        return props.getProperty("os.name");
+    }
 
     //---------
     //refs:https://github.com/jptx1234/SimplePing/
     private String testIpGetPing(ArrayList<String> ipList){
 
         ArrayList<HostMode> hostModeArrayList=new ArrayList<HostMode>();
+        String osName = getOSName();
+        boolean isWinOS=false;
+        if (osName.contains("Window")) {
+            isWinOS=true;
+        }
 
         try {
             for (String ip : ipList) {
-                //win?
-                //Process p=Runtime.getRuntime().exec("ping "+string+" -n 1");
-                Process p=Runtime.getRuntime().exec("ping -c 1 "+ip);
-                BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                Process p=null;
+                if(isWinOS){
+                    p=Runtime.getRuntime().exec("ping -n 1 "+ip);
+                }else{
+                    p=Runtime.getRuntime().exec("ping -c 1 "+ip);
+                }
+//(new FileInputStream(file), "UTF-8");
+                BufferedReader reader =null;
+                if(isWinOS) {
+                    reader = new BufferedReader(new InputStreamReader(p.getInputStream(),"GBK"));
+                }else{
+                    reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                }
                 String line;
                 StringBuilder sb=new StringBuilder();
                 while((line = reader.readLine()) != null){
@@ -137,8 +156,12 @@ public class CSVFileUtil {
                 for (int i = 0; i < mes.length; i++) {
                     String strMes=mes[i];
                     strMes=mes[i].toUpperCase();
-                    if (strMes.startsWith("TIME=")) {
+                    if (strMes.startsWith("TIME=")||(strMes.contains("=")&&strMes.contains("MS"))) {
                         String timeVal=strMes.substring(strMes.indexOf("=")+1);
+                        if(isWinOS){
+                            timeVal=timeVal.substring(0,timeVal.indexOf("MS"));
+                        }
+
                         System.out.println(ip+ "\t" + timeVal);
                         int msTimeVal=Integer.valueOf(timeVal);
                         HostMode hostMode=new HostMode();
