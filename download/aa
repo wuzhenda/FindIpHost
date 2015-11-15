@@ -1,0 +1,88 @@
+Australia - Perth (auper01)	Okay	48.169	48.372	48.634	216.58.220.142
+Australia - Brisbane (aubne02)	Okay	18.103	18.659	20.273	2404:6800:4006:800::200e
+Argentina - Buenos Aires (arbue01)	Okay	1.078	1.341	2.436	173.194.42.3
+United States - Atlanta (usatl02)	Okay	0.989	1.026	1.064	64.233.177.138
+Australia - Sydney (ausyd03)	Okay	0.940	0.996	1.088	216.58.220.110
+Brazil - Sao Paulo (brsao04)	Okay	4.329	8.670	16.216	173.194.118.110
+Brazil - Porto Alegre (brpoa01)	Okay	17.565	17.909	18.500	173.194.118.1
+Canada - Vancouver (cavan03)	Okay	0.788	0.895	1.092	66.199.151.170
+Bulgaria - Sofia (bgsof02)	Okay	0.187	0.231	0.293	216.58.208.110
+India - Bangalore (inblr01)	Okay	30.661	45.358	106.853	216.58.220.14
+United States - Boulder (uswbu01)	Okay	2.325	2.389	2.466	216.58.217.14
+Canada - Toronto (cator02)	Okay	1.609	1.668	1.744	74.125.226.104
+China - Hangzhou (cnhgh01)	Checking...				
+United States - Chicago (uschi04)	Okay	23.880	23.923	23.959	74.125.29.100
+United States - Santa Clara (usscz03)	Okay	71.379	71.446	71.546	216.58.217.142
+Switzerland - Zurich (chzrh01)	Okay	23.505	23.669	23.762	2a00:1450:4008:801::1008
+United States - Charlotte (usclt02)	Okay	7.666	7.942	8.362	64.233.177.102
+China - Shanghai (cnsha02)	Checking...				
+Costa Rica - San Jose (crsjo01)	Okay	0.247	0.472	0.792	190.241.121.31
+Canada - Calgary (cacal01)	Okay	15.436	16.053	17.656	216.58.216.142
+Czech Republic - Prague (czprg01)	Okay	0.306	0.325	0.348	173.194.116.226
+Germany - Munich (demuc02)	Okay	5.412	5.442	5.465	2a00:1450:4001:805::1007
+Germany - Cologne (decgn01)	Okay	13.489	13.682	13.943	2a00:1450:4013:c01::8b
+Germany - Frankfurt (defra03)	Okay	13.010	13.150	13.343	173.194.112.98
+Germany - Berlin (deber01)	Okay	0.824	1.269	4.111	216.58.213.14
+United Arab Emirates - Dubai (aedxb01)	Okay	6.103	6.171	6.302	173.194.124.14
+Ireland - Dublin (iedub02)	Okay	0.663	0.679	0.696	216.58.211.174
+Egypt - Cairo (egcai01)	Okay	62.698	64.404	69.085	173.194.116.131
+Spain - Madrid (esmad02)	Okay	0.609	0.640	0.692	216.58.211.238
+France - Paris (frpar03)	Not available				
+United States - Orlando (usorl01)	Okay	23.990	24.017	24.066	216.58.192.78
+France - Lille (frlle02)	Okay	9.897	10.053	10.203	173.194.67.113
+Greece - Athens (grath01)	Okay	45.124	45.175	45.239	2a00:1450:4017:803::200e
+Switzerland - Geneva (chgva01)	Okay	1.421	1.771	2.485	193.134.255.24
+China - Hong Kong (hkhkg01)	Okay	4.196	39.714	139.554	2404:6800:4005:809::200e
+Hungary - Budapest (hubud01)	Packets lost (10%)	0.406	0.449	0.497	216.58.209.206
+India - Mumbai (inbom02)	Okay	28.977	30.978	34.347	216.58.220.14
+India - New Delhi (inicd01)	Okay	50.680	50.935	52.704	216.58.220.14
+Italy - Milan (itmil01)	Unknown result from ping				2a00:1450:4001:805::1001
+Italy - Padova (itpda01)	Okay	14.332	14.484	14.776	2a00:1450:4001:80e::1003
+Japan - Tokyo (jptok02)	Okay	97.742	100.557	102.007	173.194.120.78
+South Africa - Johannesburg (zajnb01)	Okay	0.914	0.992	1.193	216.58.223.46
+Denmark - Copenhagen (dkcph02)	Unknown result from ping				2a00:1450:4005:801::1002
+Israel - Kiryat-Matalon (ilktm01)	Okay	66.875	66.896	66.916	2a00:1450:4009:800::200e
+Korea, Republic of - Seoul (krsel01)	Okay	37.876	38.156	38.704	216.58.221.238
+Ukraine - Kiev (uaiev01)	Packets lost (10%)	15.103	15.165	15.192	216.58.209.206
+United States - Ashburn (usabn07)	Okay	1.263	1.348	1.422	216.58.217.142
+Lithuania - Vilnius (ltvno01)	Okay	0.641	0.764	1.326	195.12.177.39
+United States - Los Angeles (uslax02)	Okay	10.771	10.803	10.849	216.58.217.206
+Australia - Melbourne (aumel02)	Okay	0.246	0.394	0.732	103.2.116.83
+United States - Miami (usmia02)	Okay	18.365	18.411	18.471	216.58.219.110
+United States - Seattle (ussea03)	Okay	1.937	2.037	2.180	173.194.33.167
+Canada - Montreal (camtr02)	Okay	24.396	24.420	24.444	2607:f8b0:4006:80d::1001
+Malaysia - Kuala Lumpur (mykul02)	Okay	8.019	8.780	11.698	74.125.200.113
+Netherlands - Groningen (nlgrq02)	Okay	7.493	7.556	7.674	2a00:1450:4013:c01::66
+New Zealand - Auckland (nzakl03)	Okay	25.656	27.605	31.164	216.58.220.142
+United States - New York (usnyc01)	Okay	10.816	10.864	11.196	2607:f8b0:4006:806::1004
+Norway - Oslo (noosl02)	Okay	8.017	8.058	8.140	216.58.209.142
+Poland - Gdansk (plgdn01)	Okay	45.645	45.932	47.470	2a00:1450:401b:801::200e
+United States - Phoenix (usphx01)	Okay	9.296	9.370	9.426	74.125.224.129
+Poland - Warsaw (plwrs01)	Okay	25.554	25.795	26.125	194.9.25.55
+United States - Philadelphia (usphl01)	Okay	2.570	2.788	3.152	2607:f8b0:4006:80c::1000
+United States - Dallas (usdal02)	Okay	4.895	5.068	5.828	2607:f8b0:4000:800::200e
+United States - Chicago (uschi02)	Okay	23.467	23.641	24.198	2607:f8b0:4009:80b::200e
+Russian Federation - St. Petersburg (ruled01)	Okay	5.125	5.194	5.249	64.233.161.139
+Italy - Rome (itrom02)	Okay	20.675	22.382	24.466	173.194.112.7
+Russian Federation - Moscow (rumow02)	Okay	1.678	2.002	3.025	173.194.122.206
+Romania - Bucharest (robuh01)	Okay	36.094	36.370	36.560	216.58.211.14
+Serbia - Belgrade (rsbeg01)	Okay	23.738	25.394	30.431	216.58.211.46
+United Kingdom - Glasgow (gbglw01)	Okay	20.176	20.652	22.439	216.58.213.46
+United States - San Diego (ussan01)	Okay	1.846	1.974	2.076	70.186.24.27
+Sweden - Stockholm (sesto01)	Okay	25.372	25.408	25.468	2a00:1450:4001:80b::1000
+United States - San Francisco (ussfo02)	Okay	4.926	5.056	5.098	74.125.239.39
+Singapore - Singapore (sgsin03)	Okay	2.340	6.094	14.442	173.194.117.105
+United States - Salt Lake City (usslc01)	Okay	0.625	2.729	11.699	208.187.128.18
+Saudi Arabia - Riyadh (saruh01)	Okay	78.164	78.403	78.592	173.194.112.6
+United States - Austin (usaus02)	Okay	6.149	6.200	6.250	2607:f8b0:4000:807::1008
+United States - St. Louis (usstl01)	Okay	21.522	21.535	21.550	216.58.216.78
+Finland - Tampere (fitmp02)	Okay	2.740	2.780	2.894	83.145.196.187
+Thailand - Bangkok (thbkk02)	Okay	30.760	30.944	31.588	74.125.200.113
+Turkey - Istanbul (trist02)	Okay	38.930	39.959	41.941	173.194.44.35
+United Kingdom - Manchester (gbmnc01)	Okay	8.003	8.160	8.294	216.58.209.238
+Ukraine - Kharkov (uahrk02)	Okay	5.875	5.957	6.127	87.245.196.185
+United Kingdom - London (gblon01)	Packets lost (100%)				2a00:1450:4009:80c::200e
+Austria - Vienna (atvie01)	Okay	23.742	23.806	23.964	173.194.45.46
+Viet Nam - Ho Chi Minh City (vnsgn01)	Okay	0.645	0.685	0.710	113.171.239.183
+South Africa - Durban (zadur01)	Okay	10.866	12.153	15.136	216.58.223.46
+South Africa - Cape Town (zacpt02)	Okay	18.568	19.438	20.661	197.80.128.55

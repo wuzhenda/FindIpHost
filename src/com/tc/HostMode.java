@@ -5,5 +5,5 @@ package com.tc;
  */
 public class HostMode {
     String ip;
-    int timeMs;
+    double timeMs;
 }

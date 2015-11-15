@@ -11,12 +11,33 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CSVFileUtil {
 
     public static final String ENCODE = "UTF-8";
 
+    final String regex = "\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}";
+    Pattern p = Pattern.compile(regex);
 
+    //file from:
+    //http://www.super-ping.com/?ping=www.google.com&locale=en
+    private String findIP4LineIp(String strOneLine) throws Exception {
+
+
+        Matcher m = p.matcher(strOneLine);
+        while (m.find()) {
+            String ipv4=m.group();
+            System.out.println(ipv4);
+            return ipv4;
+        }
+
+        return null;
+    }
+
+    //file from
+    //just-ping:https://asm.ca.com/en/ping.php
     private String findOKLineIp(String strOneLine) throws Exception {
 
         if(strOneLine.contains("Okay")){
@@ -70,6 +91,11 @@ public class CSVFileUtil {
             String strOneLine;
             while(null!=(strOneLine=br.readLine())){
                 String ip=findOKLineIp(strOneLine);
+                //try another website
+                if(ip==null) {
+                    ip = findIP4LineIp(strOneLine);
+                }
+
                 if(ip!=null){
                     String ipv4=getIPV4(ip);
                     if(ipv4!=null && !ipList.contains(ipv4)){
@@ -163,7 +189,7 @@ public class CSVFileUtil {
                         }
 
                         System.out.println(ip+ "\t" + timeVal);
-                        int msTimeVal=Integer.valueOf(timeVal);
+                        double msTimeVal=Double.valueOf(timeVal);
                         HostMode hostMode=new HostMode();
                         hostMode.ip=ip;
                         hostMode.timeMs=msTimeVal;
